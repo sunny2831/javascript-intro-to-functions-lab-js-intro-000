@@ -4,8 +4,6 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function logShout(string) {
-  console.log(string)
+function logShout('hello') {
+  console.log('HELLO')
 }
-logShout('hello')
-expect(spy).toHaveBeenCalledWith('HELLO')
