@@ -2,5 +2,6 @@ function shout(string) {
   return string.toUpperCase()
 }
 function whisper(string) {
-  return string.toLowerCase.toEqual('hello')
+  expect(wisper('Hello')).toEqual('hello')
+  return string.toLowerCase
 }
